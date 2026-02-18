@@ -1,22 +1,3 @@
-<<<<<<< ours
-# Pizzería Criolla
-
-App liviana para tomar pedidos de pizzas, empanadas, hamburguesas y lomitos, con envío de la orden a WhatsApp y un panel simple para actualizar precios, stock e imágenes.
-
-## Requisitos
-- Node.js 18+
-
-## Cómo usar
-1. Instalar dependencias (no se requieren librerías externas).
-2. Ejecutar el servidor:
-   ```bash
-   npm start
-   ```
-3. Abrir `http://localhost:3000` para el flujo de compra.
-4. Abrir `http://localhost:3000/admin` para actualizar menú, stock y fotos. Las imágenes se guardan en `public/uploads` y se referencian en `data/menu.json`.
-
-Los productos con stock `0` no se muestran en el front de compra. El checkout arma un mensaje con los datos de contacto y pago y abre WhatsApp al número +54 9 11 3627-5604.
-=======
 # Sistema de Gestión de Stock
 
 Aplicación web completa con backend en Django + DRF y frontend en React, pensada para gestionar productos, depósitos, movimientos de stock y alertas de reposición.
@@ -105,4 +86,3 @@ Se incluyen scripts SQL en `backend/scripts/` para carga inicial y datos de ejem
 
 ## Logging
 El backend escribe logs en consola y en `backend/logs/app.log`. Ajusta el nivel en `settings.py`.
->>>>>>> theirs
